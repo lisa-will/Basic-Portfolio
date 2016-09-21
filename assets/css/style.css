@@ -11,12 +11,12 @@ body {
 
 a {
 	text-decoration: none;
-	text-decoration-color: #a8c0d8;
+	color: #a8c0d8;
 }
 
 a: visted {
 	text-decoration: none; 
-	text-decoration-color: #a8c0d8;
+	color: #a8c0d8;
 }
 
 /*** HEAD AND TAILS ***/
@@ -26,7 +26,7 @@ header {
 	border-bottom: 2px solid #ddd;
 	margin: 0;
 	width: 100%;
-	float: left;
+	float: right;
 }
 
 .footer {
@@ -43,21 +43,31 @@ header {
 
 }
 
-.main_menu {
+nav {
 	float: left;
-	padding: 50px 0 0 320px;
-	height: 100%;
 	color: #777;
+	font-size: 14px;
+	letter-spacing: 3.7px;
+
+}
+
+.fixed-nav-bar {
+  	position: absolute;
+  	top: 35px;
+  	left: 835px;
+ 	width: 100%;
+  	background-color: #fff;
 }
 
 h1 {
 	margin-bottom: 0;
 	background-color: #a8c0d8;
 	width: 373px;
-	padding: 25px;
+	padding: 25px 25px 15px 25px;
 	float: left; 
 	letter-spacing: 6px;
 	font-family: Helvetica, sans-serif;
+	font-size: 26px;
 	color: #fff;
 }
 
@@ -65,13 +75,16 @@ h2 {
 	font-family: Helvetica, sans-serif; 
 	background-color: #fff;
 	padding-right: 1px;
+	font-size: 20px;
 }
 
 /**** ABOUT ME SECTION ****/
 
 p {
-	font-family: Courier, Monaco, monospace;
+	font-family: Helvetica, sans-serif;
 	text-align: justify;
+	line-height: 1.5;
+	font-size: 15px;
 }
 
 .container {
@@ -104,7 +117,7 @@ p {
 	width: 25%;
 	background-color: #fff;
 	border: 2px solid #ddd;
-	padding: 20px;
+	padding: 25px;
 	text-align: center;
 	float: right;
 	margin-top: 40px;
@@ -122,19 +135,56 @@ p {
 }
 
 .thumb {
-	width: 50px;
-	height: 50px;
-	padding: 13px;
+	width: 55px;
+	height: 55px;
+	padding: 10px;
 }
+
 
 .stock {
 	width: 270px;
 	height: 180px;
 	float: initial;
 	padding: 10px;
-	margin-left: 10px;
-	z-index: 2;
+	margin-left: 10px;	
+}
 
+.mts {
+
+}
+
+}
+
+.city {
+
+}
+
+.cam {
+
+}
+
+.sat {
+
+}
+
+.wind{
+
+}
+
+.gallery p{
+	width: 270px;
+    padding-left: 0px;
+    margin-left: 20px;
+
+}
+
+.caption {
+
+	z-index: +1;
+	position: relative;
+	top: 175px;
+	text-align: center;
+    background-color: #e4dfdf;
 }
 
 /*** CONTACT INPUT ***/
@@ -143,9 +193,18 @@ input {
 	width: 100%;
 	height: 25px;
 	margin-top: 0px;
-
-
+	    text-align: left;
+    padding-left:0;
+    padding-top:0;
+    padding-bottom:0.4em;
+    padding-right: 0.4em;
 }
+
+/** textarea {
+	height:250px;
+	max-width:100%;
+  	resize:none;
+}**/
 
 h3 {
 	margin-bottom: 5px;

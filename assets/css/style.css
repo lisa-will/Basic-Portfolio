@@ -52,10 +52,10 @@ nav {
 }
 
 .fixed-nav-bar {
-  	position: absolute;
-  	top: 35px;
-  	left: 835px;
+	position: fixed;
  	width: 100%;
+ 	top: 5%;
+ 	margin-left: 23%;
 }
 
 h1 {

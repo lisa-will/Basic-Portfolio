@@ -47,15 +47,8 @@ nav {
 	color: #777;
 	font-size: 14px;
 	letter-spacing: 3.7px;
-
-
-}
-
-.fixed-nav-bar {
-	position: fixed;
- 	width: 100%;
- 	top: 5%;
- 	margin-left: 23%;
+	padding-top: 30px;
+	padding-left: 290px;
 }
 
 h1 {

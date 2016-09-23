@@ -25,7 +25,7 @@ header {
 	border-bottom: 2px solid #ddd;
 	margin: 0;
 	width: 100%;
-	float: right;
+	height: 66px;
 }
 
 .footer {
@@ -48,7 +48,7 @@ nav {
 	font-size: 14px;
 	letter-spacing: 3.7px;
 	padding-top: 30px;
-	padding-left: 290px;
+	margin-left: 290px;
 }
 
 h1 {
